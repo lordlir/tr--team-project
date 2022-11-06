@@ -1,0 +1,34 @@
+//  variables of color
+ 
+ $brandColor: #2196f3;
+ $mainTextColor: #212121;
+ $otherTextColor: #757575;
+ $backgroundMain: #ffffff;
+ $otherBg: #f5f4fa;
+ $iconColor: #afb1b8;
+ $darkBg: #2f303a;
+
+//  variables os text
+
+$mainTextSize:14px;
+$secodaryTS:16px;
+$smallTS:12px;
+$mainLH:1.14;
+$secondaryLH:1.71;
+$gapXS:10px;
+$gapS:30px;
+$gapM:50px;
+
+// mixins
+
+@mixin flexed($alignItem, $justyfyContent){
+    display: flex;
+    align-items: $alignItem;
+    justify-content: $justyfyContent;
+}
+
+@mixin font ($fontW,$fontSize,$lineH){
+    font-weight: $fontW;
+    font-size: $fontSize;
+    line-height: $lineH;
+}
